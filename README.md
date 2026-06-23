@@ -1,13 +1,13 @@
 # Good Chap Coffee Stand
 
-A premium single-page coffee shop website built with React + Vite — portfolio-ready.
+A portfolio-grade commercial coffee shop website built with React + Vite.
 
-## Features
+## Highlights
 
-- Hero, brand story, menu with prices, opening hours, contact form
-- Instagram & LINE contact buttons
-- Fully responsive (mobile, tablet, desktop)
-- Clean editorial design with English copy
+- Editorial layout with scroll-reveal animations
+- Full commercial sections: stats, services, menu, gallery, testimonials, visit, FAQ, CTA, contact
+- Centralized content in `src/data/site.js` for easy client customization
+- Fully responsive across mobile, tablet, and desktop
 
 ## Getting Started
 
@@ -18,26 +18,22 @@ npm run dev
 
 Open the URL shown in the terminal (usually `http://localhost:5173`).
 
-## Project Structure
+## Page Structure
 
-```
-src/
-├── components/
-│   ├── Header.jsx
-│   ├── Hero.jsx
-│   ├── Story.jsx
-│   ├── Menu.jsx
-│   ├── Hours.jsx
-│   ├── Contact.jsx
-│   ├── Footer.jsx
-│   └── SocialButtons.jsx
-├── data/
-│   └── site.js          # Brand info, hours, social links
-├── App.jsx
-├── main.jsx
-└── index.css
-```
+| Section | Purpose |
+|---------|---------|
+| Hero | Brand introduction + featured coffee card |
+| Stats | Trust metrics bar |
+| About | Brand story and values |
+| Services | Events, wholesale, subscription, workshops |
+| Menu | Featured pick + full priced menu |
+| Gallery | Space and product photography |
+| Testimonials | Client and customer social proof |
+| Visit | Hours, address, embedded map |
+| FAQ | Accordion for common questions |
+| CTA | Business enquiry prompt |
+| Contact | Professional enquiry form |
 
 ## Customization
 
-Edit `src/data/site.js` to update brand name, hours, and social URLs.
+Edit `src/data/site.js` to update brand details, menu items, hours, testimonials, and social links.

@@ -7,24 +7,34 @@ export default function Hero() {
       <div className="hero__bg" aria-hidden="true" />
       <div className="hero__overlay" aria-hidden="true" />
 
-      <div className="hero__content container">
-        <p className="hero__tag">Est. 2019 · Taipei</p>
-        <h1 className="hero__title">
-          {BRAND.name}
-        </h1>
-        <p className="hero__subtitle">
-          {BRAND.tagline} Single-origin pours, thoughtful espresso,
-          and a stand built for unhurried mornings.
-        </p>
-        <div className="hero__actions">
-          <a href="#menu" className="btn btn--primary">
-            View Menu
-          </a>
-          <a href="#story" className="btn btn--outline">
-            Our Story
-          </a>
+      <div className="hero__inner container">
+        <div className="hero__content">
+          <p className="hero__tag">Est. 2019 · Da&apos;an, Taipei</p>
+          <h1 className="hero__title">
+            Coffee worth
+            <br />
+            <em>slowing down for.</em>
+          </h1>
+          <p className="hero__subtitle">
+            {BRAND.name} is a specialty coffee stand sourcing traceable
+            single-origin beans through direct trade — roasted in small batches
+            and served with precision at our counter in Taipei.
+          </p>
+          <div className="hero__actions">
+            <a href="#menu" className="btn btn--primary">Explore the Menu</a>
+            <a href="#visit" className="btn btn--outline">Plan Your Visit</a>
+          </div>
+          <SocialButtons variant="hero" className="hero__social" />
         </div>
-        <SocialButtons variant="hero" className="hero__social" />
+
+        <div className="hero__aside">
+          <div className="hero__card">
+            <span className="hero__card-label">Now Serving</span>
+            <p className="hero__card-title">Ethiopia Yirgacheffe</p>
+            <p className="hero__card-desc">Floral · bergamot · stone fruit</p>
+            <a href="#menu" className="hero__card-link">View full menu →</a>
+          </div>
+        </div>
       </div>
 
       <div className="hero__scroll" aria-hidden="true">

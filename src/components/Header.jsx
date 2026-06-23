@@ -1,14 +1,6 @@
 import { useState, useEffect } from 'react'
-import { BRAND } from '../data/site'
+import { BRAND, NAV } from '../data/site'
 import SocialButtons from './SocialButtons'
-
-const navLinks = [
-  { href: '#home', label: 'Home' },
-  { href: '#story', label: 'Story' },
-  { href: '#menu', label: 'Menu' },
-  { href: '#hours', label: 'Hours' },
-  { href: '#contact', label: 'Contact' },
-]
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -37,7 +29,7 @@ export default function Header() {
 
         <nav className={`header__nav ${menuOpen ? 'header__nav--open' : ''}`}>
           <ul className="header__nav-list">
-            {navLinks.map((link) => (
+            {NAV.map((link) => (
               <li key={link.href}>
                 <a href={link.href} onClick={handleNavClick}>
                   {link.label}
@@ -49,7 +41,7 @@ export default function Header() {
         </nav>
 
         <div className="header__actions">
-          <SocialButtons variant="header" className="header__social-desktop" />
+          <a href="#contact" className="btn btn--nav header__cta">Enquire</a>
           <button
             className={`header__toggle ${menuOpen ? 'header__toggle--open' : ''}`}
             onClick={() => setMenuOpen(!menuOpen)}

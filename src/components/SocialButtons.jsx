@@ -33,7 +33,7 @@ export default function SocialButtons({ variant = 'dark', className = '' }) {
         className="social-buttons__btn social-buttons__btn--instagram"
       >
         <InstagramIcon />
-        <span>Instagram</span>
+        <span>{SOCIAL.instagramHandle}</span>
       </a>
       <a
         href={SOCIAL.line}
@@ -42,7 +42,7 @@ export default function SocialButtons({ variant = 'dark', className = '' }) {
         className="social-buttons__btn social-buttons__btn--line"
       >
         <LineIcon />
-        <span>LINE</span>
+        <span>{SOCIAL.lineHandle}</span>
       </a>
     </div>
   )
