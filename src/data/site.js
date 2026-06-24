@@ -1,21 +1,30 @@
 export const PROFILE = {
-  name: 'Bear',
-  role: 'Front-End Developer',
-  tagline: 'I craft clean, modern websites that feel as refined as they look.',
-  email: 'hello@bearcoffee.com',
-  location: 'Taipei, Taiwan',
+  name: 'LIN YU AN',
+  role: 'Presales Project Manager',
+  tagline: 'Healthcare Professional • Digital Nomad • Coffee Entrepreneur',
+  email: 'beartoeva@gmail.com',
+  location: 'Taiwan',
   bio: [
-    'I\'m a front-end developer focused on building fast, responsive websites with React and modern tooling. I care about typography, spacing, and the small details that make an interface feel intentional.',
-    'From single-page brand sites to full product landing pages, I work closely with clients to translate ideas into polished digital experiences — clear structure, thoughtful motion, and code that\'s easy to maintain.',
-  ],
-  skills: ['React', 'JavaScript', 'HTML & CSS', 'Responsive Design', 'Vite', 'UI Implementation'],
+  'I have more than 17 years of experience in healthcare, dental business development, and medical operations across Taiwan and China.',
+  'Besides my healthcare background, I founded and operated my own coffee and bakery brand, combining business development with entrepreneurship.',
+  'Currently, I work remotely as a Presales Project Manager while traveling throughout Asia as a digital nomad.'
+],
+  skills: [
+  'Healthcare Industry',
+  'Dental Industry',
+  'Business Development',
+  'Project Management',
+  'Digital Transformation',
+  'Coffee Business',
+  'Remote Work'
+],
 }
 
 export const SOCIAL = {
-  instagram: 'https://instagram.com/bearcoffeestudio',
-  instagramHandle: '@bearcoffeestudio',
-  line: 'https://line.me/R/ti/p/@goodchapcoffee',
-  lineHandle: '@goodchapcoffee',
+  instagram: 'https://instagram.com/y.a_lin',
+  instagramHandle: '@y.a_lin',
+  line: 'https://line.me/R/ti/p/k21972002',
+  lineHandle: '@k21972002'
 }
 
 export const NAV = [
@@ -28,7 +37,7 @@ export const NAV = [
 export const PROJECTS = [
   {
     id: 'good-chap',
-    title: 'Good Chap Coffee Stand',
+    title: 'Suzhou Coffee & Bakery Brand',
     category: 'Brand Website',
     year: '2025',
     desc: 'A premium single-page coffee shop site with menu, hours, gallery, and enquiry form — built to demonstrate commercial web design capability.',
@@ -39,7 +48,7 @@ export const PROJECTS = [
   },
   {
     id: 'atelier',
-    title: 'Atelier Studio',
+    title: 'Healthcare & Dental Industry (17+ Years)',
     category: 'Portfolio',
     year: '2025',
     desc: 'Minimal portfolio for an interior design studio. Large imagery, restrained typography, and a focus on letting the work speak for itself.',
@@ -49,7 +58,7 @@ export const PROJECTS = [
   },
   {
     id: 'northline',
-    title: 'Northline SaaS',
+    title: 'Presales Project Management',
     category: 'Product Landing',
     year: '2024',
     desc: 'Landing page for a B2B productivity tool. Feature sections, pricing table, and conversion-focused layout with a calm, trustworthy visual tone.',
@@ -59,7 +68,7 @@ export const PROJECTS = [
   },
   {
     id: 'form-kitchen',
-    title: 'Form Kitchen',
+    title: 'Digital Nomad Journey',
     category: 'E-Commerce',
     year: '2024',
     desc: 'Product showcase for a kitchenware brand. Image-led catalog layout, mobile-first navigation, and streamlined checkout flow.',
